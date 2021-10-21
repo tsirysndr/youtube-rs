@@ -10,4 +10,10 @@ impl SubscriptionsService {
       client: client.clone(),
     }
   }
+
+  pub fn list(&self) {}
+
+  pub fn insert(&self) {}
+
+  pub fn delete(&self) {}
 }

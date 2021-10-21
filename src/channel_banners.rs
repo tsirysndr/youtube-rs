@@ -10,4 +10,6 @@ impl ChannelBannersService {
       client: client.clone(),
     }
   }
+
+  pub fn insert(&self, channel_id: &str, banner: &str) {}
 }

@@ -10,4 +10,8 @@ impl CommentThreadsService {
       client: client.clone(),
     }
   }
+
+  pub fn list(&self) {}
+  
+  pub fn insert(&self) {}
 }

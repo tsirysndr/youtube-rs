@@ -10,4 +10,6 @@ impl I18nLanguagesService {
       client: client.clone(),
     }
   }
+
+  pub fn list(&self) {}
 }

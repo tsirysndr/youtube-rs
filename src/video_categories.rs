@@ -10,4 +10,6 @@ impl VideoCategoriesService {
       client: client.clone(),
     }
   }
+
+  pub fn list(&self) {}
 }

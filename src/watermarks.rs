@@ -10,4 +10,8 @@ impl WatermarksService {
       client: client.clone(),
     }
   }
+
+  pub fn set(&self) {}
+
+  pub fn unset(&self) {}
 }

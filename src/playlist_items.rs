@@ -10,4 +10,12 @@ impl PlaylistItemsService {
       client: client.clone(),
     }
   }
+
+  pub fn list(&self) {}
+
+  pub fn insert(&self) {}
+
+  pub fn update(&self) {}
+
+  pub fn delete(&self) {}
 }

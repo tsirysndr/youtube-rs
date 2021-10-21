@@ -10,4 +10,18 @@ impl VideosService {
       client: client.clone(),
     }
   }
+
+  pub fn list(&self) {}
+
+  pub fn insert(&self) {}
+
+  pub fn update(&self) {}
+
+  pub fn rate(&self) {}
+
+  pub fn get_rating(&self) {}
+
+  pub fn report_abuse(&self) {}
+
+  pub fn delete(&self) {}
 }

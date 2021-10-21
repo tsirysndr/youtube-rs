@@ -10,4 +10,8 @@ impl ChannelsService {
       client: client.clone(),
     }
   }
+
+  pub fn list(&self) {}
+
+  pub fn update(&self) {}
 }

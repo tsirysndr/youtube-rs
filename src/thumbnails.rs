@@ -10,4 +10,6 @@ impl ThumbnailsService {
       client: client.clone(),
     }
   }
+
+  pub fn set(&self) {}
 }

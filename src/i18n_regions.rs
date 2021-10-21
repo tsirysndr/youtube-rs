@@ -10,4 +10,6 @@ impl I18nRegionsService {
       client: client.clone(),
     }
   }
+
+  pub fn list(&self) {}
 }

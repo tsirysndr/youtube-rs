@@ -10,4 +10,6 @@ impl MembershipsLevelsService {
       client: client.clone(),
     }
   }
+
+  pub fn list(&self) {}
 }

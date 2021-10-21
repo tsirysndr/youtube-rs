@@ -10,4 +10,6 @@ impl MembersService {
       client: client.clone(),
     }
   }
+
+  pub fn list(&self) {}
 }
